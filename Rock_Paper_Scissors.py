@@ -14,4 +14,4 @@ while True:
     random_number = random.randint(0, 2)
     # rock:0, paper:1, scissors:2
     computer_pick = options[random_number]
-    prit("computer picked", computer_pick+ ".")
+    print("computer picked", computer_pick+ ".")
