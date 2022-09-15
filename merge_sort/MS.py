@@ -28,4 +28,6 @@ def merge_sort(arr):
             j += 1
             k += 1    
 
-arr_test = [2, 3, 5, 1, 7, 4, 4, 4, 2, 6, 0]        
+arr_test = [2, 3, 5, 1, 7, 4, 4, 4, 2, 6, 0]   
+merge_sort(arr_test)     
+print(arr_test)
